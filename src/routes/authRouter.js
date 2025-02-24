@@ -6,7 +6,7 @@ router.post("/login",loginContoller);
 router.post("/register",registerController);
 
 router.get("/logaut",(req,res)=>{
-  res.send("logout");
+  res.render("logout");
 });
 
 
